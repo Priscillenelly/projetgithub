@@ -71,15 +71,10 @@ body {
     background-color: orangered;
   }
 
-.background {
-    background-image: url('../img/398dfebbd6dfe70237173502da09634b.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+.background {  
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     text-align: center;
   }
   
