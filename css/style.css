@@ -106,7 +106,79 @@ body {
   margin-left: 200px;
   margin-top: 50px;
   }
+
+.title {
+    font-size: 2rem;
+    font-weight: 300;/*bold*/
+    color: black;
+    margin-top: 40px;
+    text-align: center;
+    padding: 05px 05px;
+  }
   
+  /* Style pour les bordures arrondies en haut */
+.box {
+    border: 0 solid rgba(220, 220, 220, 0.817);
+    border-radius: 50px 50px 0 0; 
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0px;
+    background-color: rgba(220, 220, 220, 0.514);
+    width: 250px;
+    margin: 30px;
+    padding-bottom: 20px;
+    display: block;
+  
+  }
+  
+  /* Style pour les photos */
+.img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+  
+  /* Style pour la description de l'article */
+.text1{
+    text-decoration: underline;
+    text-align: left;
+    padding: 10px;
+    font-size: medium;
+} 
+  
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    gap: 85px;
+  }
+
+.btn {
+        color: black;
+        background: white;
+        border: black;
+        border-radius: 30px;
+        padding: 07px 10px;
+        border: 20px;
+        font-size: small;
+        display: flex;
+        float: left;
+        border:  solid black 01px;  
+        cursor: pointer;
+        text-align: left;
+        margin-left: 10px;
+  }
+  .btn:hover  {
+    text-align: center;
+    border-color:black  ;
+    color: orangered ;
+    background-color: gainsboro;
+  } 
 
   
  
