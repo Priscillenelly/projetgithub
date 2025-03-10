@@ -79,15 +79,14 @@ body {
   }
  .overlay {
    margin-top: -600px;
-
+   margin-left: 200px;
   }
   
   .overlay h1 {
     font-size: 3rem;
     font-family: "Nunito", serif;
-    font-weight: 300;
+    font-weight: bold;
     color: white;
-    text-align: center;
     
   } 
 
