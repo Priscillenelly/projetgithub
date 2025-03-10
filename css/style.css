@@ -85,9 +85,9 @@ body {
   .overlay h1 {
     font-size: 3rem;
     font-family: "Nunito", serif;
-    font-weight: 300;
+    font-weight: 300;/*bold*/
     color: white;
-    text-align: center;
+    text-align: center;/*x*/
     
   } 
 
