@@ -196,7 +196,14 @@ body {
     padding: 05px 05px;
   }
   
-
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    gap: 70px;
+  }
+  
+  /* Style pour les bordures arrondies en haut */
 .test {
 background-color: rgb(241, 239, 239);
 border-radius: 10px;
