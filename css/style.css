@@ -42,7 +42,7 @@ body {
     display: inline-block; /* Assure que le padding est appliqué correctement */
     transition: background-color 0.3s ease, color 0.3s ease; /* Transition pour l'effet hover */
     white-space: nowrap; /* Empêche le texte de revenir à la ligne */
-    font-size: 0.9rem; /* Réduit légèrement la taille de la police si nécessaire */
+    font-size: 15px; 
   }
   
 .menu ul li a:hover {
