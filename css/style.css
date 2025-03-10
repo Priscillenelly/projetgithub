@@ -204,6 +204,10 @@ body {
 }
 .test {
 background-color: rgb(241, 239, 239);
+border-radius: 10px;
+padding: 100px;
+margin: 100px;
+width: 950px;
 
 }
   
@@ -216,6 +220,7 @@ background-color: rgb(241, 239, 239);
 } 
 .E {
     color: red;
+    padding-top: 20px;
 }
   
 
