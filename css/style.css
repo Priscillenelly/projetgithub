@@ -75,6 +75,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    
   }
  .overlay {
    margin-top: -600px;
@@ -83,10 +84,10 @@ body {
   
   .overlay h1 {
     font-size: 3rem;
+    font-family: "Nunito", serif;
     font-weight: 300;
     color: white;
-    margin-top: 40px ;
-    padding-left: 70px;
+    text-align: center;
     
   } 
 
@@ -94,13 +95,12 @@ body {
     font-size: 1.5rem;
     font-weight: 100;
     color: white;
-    margin-top: 70px;
-    padding-left: 50px;
   }
   
 .first{
     width: 100%; /* Prend toute la largeur disponible */
-    
+    margin: 0 auto;
+
   }
 
   
