@@ -9,6 +9,7 @@ body {
   position: fixed;
   background-color: rgb(255, 255, 255);
   width: 100%;
+  box-shadow: 0 4px 5px #d3d2d2;
 }
 
 .container {
