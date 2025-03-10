@@ -71,10 +71,13 @@ body {
     background-color: orangered;
   }
 
-.background {  
+.background {
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
     text-align: center;
   }
   
