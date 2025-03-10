@@ -117,7 +117,7 @@ body {
   }
  
 .title p {
-        font-size: 1.3rem;
+        font-size: 2rem;
         font-weight: 300;
         color: rgb(177, 177, 177);
         margin-top: 40px;
@@ -127,12 +127,12 @@ body {
   /* Style pour les bordures arrondies en haut */
 .box {
     border: 0 solid rgba(220, 220, 220, 0.817);
-    border-radius: 50px 50px 0 0; 
+    border-radius: 70px 70px 0 0; 
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     padding: 0px;
     background-color: rgba(220, 220, 220, 0.514);
-    width: 250px;
+    width: 400px;
     margin: 30px;
     padding-bottom: 20px;
     display: block;
