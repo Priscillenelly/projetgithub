@@ -75,7 +75,8 @@ body {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../img/398dfebbd6dfe70237173502da09634b.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 500px;
+    width: 100%;
   }
  .overlay {
    margin-top: 80px;
@@ -83,9 +84,10 @@ body {
   
   .overlay h1 {
     font-size: 3rem;
+    font-family: "Nunito", serif;
     font-weight: 300;
     color: white;
-    margin-top: 40px ;
+    text-align: center;
     
   } 
 
@@ -94,11 +96,11 @@ body {
     font-family: "Nunito", serif;
     font-weight: 100;
     color: white;
-    margin-top: 70px;
   }
   
 .first{
     width: 100%; /* Prend toute la largeur disponible */
+    margin: 0 auto;
 
   }
 
