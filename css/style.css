@@ -99,7 +99,6 @@ body {
   }
   
 .first{
-    max-width: 1250px; /* Utilisez max-width au lieu de width */
     width: 100%; /* Prend toute la largeur disponible */
     margin: 0 auto;
     display: flex;
