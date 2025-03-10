@@ -10,6 +10,7 @@ body {
   background-color: rgb(255, 255, 255);
   width: 100%;
   box-shadow: 0 4px 5px #d3d2d2;
+  margin: 0 auto;
 }
 
 .container {
@@ -69,3 +70,34 @@ body {
 .link:hover {
     background-color: orangered;
   }
+
+.background {
+    background-image: url('https:///img/398dfebbd6dfe70237173502da09634b.Jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+.background h1 {
+    font-size: 3rem;
+    font-family: "Nunito", serif;
+    font-weight: 700;
+  }
+  
+.background p {
+    font-size: 1.5rem;
+    font-family: "Nunito", serif;
+    font-weight: 300;
+  }
+  
+
+  
+  
+  
+ 
+ 
