@@ -203,7 +203,6 @@ body {
     gap: 70px;
   }
   
-  /* Style pour les bordures arrondies en haut */
 .test {
 background-color: rgb(241, 239, 239);
 border-radius: 10px;
@@ -225,6 +224,9 @@ width: 950px;
     padding-top: 20px;
 }
   
+.bro {
+    gap:10px;
+}
 
  
   
