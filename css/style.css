@@ -75,7 +75,7 @@ body {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../img/398dfebbd6dfe70237173502da09634b.jpg');
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 200vh;
     width: 100%;
   }
  .overlay {
