@@ -107,15 +107,23 @@ body {
   margin-top: 50px;
   }
 
-.title {
+.title.h2 {
     font-size: 2rem;
-    font-weight: 300;/*bold*/
-    color: black;
+    font-weight: bold;/*bold*/
+    color: orange
     margin-top: 40px;
     text-align: center;
     padding: 05px 05px;
   }
-  
+ 
+.title.p {
+        font-size: 1.3rem;
+        font-weight: 300;
+        color: rgb(177, 177, 177);
+        margin-top: 40px;
+        text-align: center;
+        padding: 05px 05px;
+}
   /* Style pour les bordures arrondies en haut */
 .box {
     border: 0 solid rgba(220, 220, 220, 0.817);
@@ -129,7 +137,7 @@ body {
     padding-bottom: 20px;
     display: block;
   
-  }
+}
   
   /* Style pour les photos */
 .img {
@@ -145,7 +153,6 @@ body {
   
   /* Style pour la description de l'article */
 .text1{
-    text-decoration: underline;
     text-align: left;
     padding: 10px;
     font-size: medium;
