@@ -83,11 +83,9 @@ body {
   
   .overlay h1 {
     font-size: 3rem;
-    font-family: "Nunito", serif;
     font-weight: 300;
-    color: white;
+    color: bold white;
     text-align: center;
-    width: 700px;
     
   } 
 
@@ -101,7 +99,6 @@ body {
   
 .first{
     width: 100%; /* Prend toute la largeur disponible */
-    margin: 0 auto;
 
   }
 
