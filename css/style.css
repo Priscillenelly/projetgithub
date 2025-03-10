@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Signika+Negative:wght@300..700&display=swap');
+/* Reset des styles par défaut */
+body {
+  font-family: "Nunito", serif;
+}
+
+/* Header */
+.header {
+  padding: 05px;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-top: 10px solid orangered;
+ 
+}
+
+.container {
+    max-width: 1250px; /* Utilisez max-width au lieu de width */
+    width: 100%; /* Prend toute la largeur disponible */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Ajoute un peu de padding pour éviter que le contenu touche les bords */
+  }
+  
+  /* Menu de navigation */
+.menu ul {
+    list-style: none; /* Supprime les puces */
+    padding: 0; /* Supprime le padding par défaut */
+    margin: 0; /* Supprime la marge par défaut */
+    display: flex; /* Aligne les éléments sur la même ligne */
+    gap: 20px; /* Ajoute un espace entre les éléments du menu */
+  }
+  
+.menu ul li {
+    display: inline-block; /* Aligne les éléments sur la même ligne */
+  }
+  
+.menu ul li a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: black; /* Couleur du texte */
+    border-radius: 10px; /* Coins arrondis pour le fond */
+    padding: 15px; /* Ajoute un padding constant */
+    display: inline-block; /* Assure que le padding est appliqué correctement */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition pour l'effet hover */
+    white-space: nowrap; /* Empêche le texte de revenir à la ligne */
+    font-size: 0.9rem; /* Réduit légèrement la taille de la police si nécessaire */
+  }
+  
+.menu ul li a:hover {
+    color: orangered; /* Changement de couleur au survol */
+    
+  }
+  
+  /* Bouton d'action */
+.link {
+    background-color: orange;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding: 25px 30px;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+.link:hover {
+    background-color: orangered;
+  }
