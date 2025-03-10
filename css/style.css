@@ -78,7 +78,8 @@ body {
     height: 100vh;
   }
  .overlay {
-   margin-top: 80px;
+   margin-top: -600px;
+
   }
   
   .overlay h1 {
@@ -101,7 +102,7 @@ body {
   
 .first{
     width: 100%; /* Prend toute la largeur disponible */
-
+    
   }
 
   
