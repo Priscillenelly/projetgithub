@@ -406,7 +406,7 @@ width: 950px;
 .ff p {
     margin: 0;
     padding: 10px 20px;
-    background-color: #e67e22; /* Garder l'effet orange */
+    background-color: #e67e22;
     display: inline-block; /* Éviter que le bloc ne prenne toute la largeur */
     border-radius: 5px; /* Ajouter des coins arrondis */
 }
