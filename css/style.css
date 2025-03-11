@@ -231,7 +231,171 @@ width: 950px;
     display: flex;
   }
   
- 
+/* Style général du footer */
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+/* Formulaire d'abonnement */
+.form {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.text-footer {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 45px;
+    
+}
+
+.X {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.X input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.X button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.X button:hover {
+    background-color: #c0392b;
+}
+
+/* Ligne de séparation */
+.final-trait {
+    border: 0;
+    height: 1px;
+    background: #444;
+    margin: 20px 0;
+}
+
+/* Contenu principal du footer */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    gap: 80px;
+    align-items: flex-start;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+.logo img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.logo p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Icônes des réseaux sociaux */
+.icone {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.icone i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icone i:hover {
+    color: #e74c3c;
+}
+
+/* Listes des sections */
+.list {
+    max-width: 250px;
+}
+
+.list h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list ul li {
+    margin-bottom: 8px;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.list ul li a:hover {
+    color: #e74c3c;
+}
+
+/* Carte Google Maps */
+.google-map iframe {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Galerie d’images */
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.galerie img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Footer final */
+.footer-final {
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 0;
+    background-color: #000;
+}
+
+.ff p {
+    margin: 0;
+}
   
  
 
